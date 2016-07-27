@@ -1,0 +1,46 @@
+
+internal wiki links 
+[wiki:TracGuide]
+["TracWiki"] 
+[Somepage]
+[[Somepage]]
+
+attachment links
+[attachment:Attached_File.pdf]. 
+[attachment:foo.gif alias]
+[[attachment:foo.gif|alias]]
+
+links with aliases
+[TracOverview Trac Overview] 
+[wiki:TracGuide Trac Guide with some German umlauts: ä ö ü]. 
+[[ticket|This is another link to ticket number one]].
+[[SandBox|the sandbox]]
+
+anchors
+[#Relativelinks relative links] 
+[[#Relativelinks|relative links]]
+
+escape links
+!EscapingWikiNames.
+
+hierarchy
+[WikiPage/SubWikiPage] 
+[wiki:WikiPage/SubWikiPage] 
+[wiki:WikiPage/SubWikiPage alias] 
+[../Sibling see next sibling] 
+[[../Sibling|see next sibling]]
+
+breaks [[BR]] (included here because very much like link syntax)
+and case insensitive:[[br]]please
+
+links with alias and quotes
+[wiki:"Foo Bar" "FB"] 
+[wiki:Foo "FB"]
+[wiki:"Foo Bar" FB]
+
+links with dashes (escaped in listconverter)
+[wiki:"Foo - Bar" "Bar"] 
+[attachment:"123-4.doc" "Some Document"]
+
+links with extraneous whitespace
+[wiki:Abcdef  Foo Bar]

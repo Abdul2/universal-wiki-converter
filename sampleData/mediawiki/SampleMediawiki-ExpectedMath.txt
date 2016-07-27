@@ -1,0 +1,22 @@
+This sample is for testing math syntax 
+
+Some block equations:
+
+{mathblock}
+\begin{eqnarray}
+g(x,y)\,
+\end{eqnarray}
+{mathblock}
+
+{mathblock:anchor=test}
+\begin{eqnarray}
+f(x) = \int_0^1 e^{-t} g(t) \, dt.
+\end{eqnarray}
+{mathblock}
+
+Some inline equations:
+{mathinline}E=mc^2{mathinline} is a famous equation. {mathinline}\pi{mathinline} is a famous number.
+
+Escaping percents:
+{mathinline}A_{B} = 100\% - C_{D}{mathinline}
+{mathinline}A_{B} = 100\% - 200\% + C_{D}{mathinline}

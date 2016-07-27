@@ -1,0 +1,55 @@
+<p>This is a sample page for testing uwc-221, code tags in dokuwiki.</p>
+
+<p>Example provided by dokuwiki's syntax page:</p>
+<ac:macro ac:name="code"><ac:default-parameter>java</ac:default-parameter><ac:plain-text-body><![CDATA[
+/** 
+ * The HelloWorldApp class implements an application that
+ * simply displays "Hello World!" to the standard output.
+ */
+class HelloWorldApp {
+    public static void main(String[] args) {
+        System.out.println("Hello World!"); //Display the string.
+    }
+}
+]]></ac:plain-text-body></ac:macro>
+
+<p>Example for unsupported languages:</p>
+<ac:macro ac:name="code"><ac:default-parameter>perl</ac:default-parameter><ac:plain-text-body><![CDATA[
+if (s/abc/def/) {
+tada();
+}
+elsif (s/def/abc/) {
+whosit();
+}
+]]></ac:plain-text-body></ac:macro>
+
+<p>UWC-221</p>
+<ac:macro ac:name="code"><ac:plain-text-body><![CDATA[
+this is my code
+]]></ac:plain-text-body></ac:macro>
+
+<p>UWC-446<br/>
+Some text here</p>
+
+<ac:macro ac:name="code"><ac:default-parameter>bash</ac:default-parameter><ac:plain-text-body><![CDATA[
+etckeeper init
+]]></ac:plain-text-body></ac:macro>
+
+<p>Some text here</p>
+
+<ac:macro ac:name="code"><ac:default-parameter>bash</ac:default-parameter><ac:plain-text-body><![CDATA[
+etckeeper init
+]]></ac:plain-text-body></ac:macro>
+
+<p>UWC-447</p>
+<ac:macro ac:name="code"><ac:plain-text-body><![CDATA[
+$ git show HEAD   # last commit
+$ git show HEAD^  # pre-last commit
+$ git show HEAD^^ # pre-pre-last commit
+]]></ac:plain-text-body></ac:macro>
+
+<p>UWC-448</p>
+<ac:macro ac:name="code"><ac:default-parameter>bash</ac:default-parameter><ac:plain-text-body><![CDATA[
+$ git checkout [rev] file                  # Fetch file from revision
+$ git ls-files -d | xargs git checkout --  # Restore removed files
+]]></ac:plain-text-body></ac:macro>

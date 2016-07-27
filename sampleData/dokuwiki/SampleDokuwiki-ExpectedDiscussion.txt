@@ -1,0 +1,2 @@
+<p>Removing Discussion plugin
+<a href="http://www.dokuwiki.org/plugin:discussion" class="external-link" rel="nofollow">http://www.dokuwiki.org/plugin:discussion</a></p>

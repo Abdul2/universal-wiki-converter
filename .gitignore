@@ -1,0 +1,11 @@
+conf-local/
+dist/
+target/
+standalone-confluence/
+.classpath
+.project
+*.log
+sampleData/*/*Output*
+output
+tmp/
+archive

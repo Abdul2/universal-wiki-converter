@@ -1,0 +1,10 @@
+Testing the TWikiHierarchy
+
+Test Files: 
+*         TWikiFAQ.txt
+*         TestFile2.txt
+
+To test that TWikiHierarchy is working.
+1. cd target/uwc
+2.  ./run_cmd_devel.sh ../../sampleData/twiki/settings.hierarchy.properties conf/converter.twiki.properties
+3. examine the pages in the chosen space. TWikiFAQ should be the parent page of TestFile2

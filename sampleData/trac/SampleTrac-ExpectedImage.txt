@@ -1,0 +1,20 @@
+
+Embed attached images
+!myImage.png!
+
+different wiki pages: 
+!WikiFormatting^picture.gif!
+!WikiToc^toc.gif!
+
+external link (but still internal image)
+!PageTitle^file.png!
+!Subpage^file.png!
+
+image with parameters
+!pagename^filename.png|width=230px,align=right!
+
+image with percentage width, but no key
+!myImage.png|thumbnail!
+
+image with dashes
+!dashed-Image.png!

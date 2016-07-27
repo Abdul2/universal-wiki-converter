@@ -1,0 +1,10 @@
+For testing macro transformations
+PageOutline to toc
+{toc}
+{toc}
+
+graphviz simple conversion
+{flowchart}
+    SOMECONTENT
+{flowchart}
+
