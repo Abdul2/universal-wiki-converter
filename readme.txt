@@ -2,6 +2,8 @@
 
 
 
+warning: this tool is no longer developed.
+
 steps :
 
 git clone https://github.com/AtlassianContribs/universal-wiki-converter.git
